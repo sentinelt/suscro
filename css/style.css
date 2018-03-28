@@ -1009,6 +1009,17 @@ header {
 	Team
 \*------------------------------------*/
 
+@media (min-width: 768px) {
+    .team-wrapper {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.team-wrapper .feature {
+    font-size: 3rem;
+}
+
 .team {
     position: relative;
     background-color: #F4F4F4;
